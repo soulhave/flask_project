@@ -12,9 +12,7 @@ def index():
 def names():
     data = {
         "first_names": ["John", "Jacob", "Julie", "Jennifer"],
-        "last_names": ["Connor", "Johnson", "Cloud", "Ray"],
-        "nick_names": ["Joe", "Jac", "Ju", "J"]
-
+        "last_names": ["Connor", "Johnson", "Cloud", "Ray"]
     }
     return jsonify(data)
 
